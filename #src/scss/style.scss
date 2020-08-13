@@ -1,8 +1,9 @@
 @import "../../node_modules/bootstrap/scss/bootstrap-grid";
 @import "../../node_modules/bootstrap/scss/bootstrap-reboot";
-@import "header";
-@import "innovation";
-@import "destinations";
-@import "guides";
-@import "testimonials";
-@import "trending-stories";
+@import "lib/button";
+@import "blocks/header";
+@import "blocks/innovation";
+@import "blocks/destinations";
+@import "blocks/guides";
+@import "blocks/testimonials";
+@import "blocks/trending-stories";
