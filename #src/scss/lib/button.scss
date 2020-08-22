@@ -1,0 +1,21 @@
+.button {
+    font-family: "Inter", sans-serif,serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #FB8F1D;
+    border-radius: 8px;
+    border: none;
+    line-height: 3em;
+}
+.button--outline {
+    padding-left: 46px;
+    padding-right: 46px;
+    background-color: #ffffff;
+    border: 1px solid #FB8F1D;
+    color: #FB8F1D;
+}
+.button--accent{
+    padding-left: 36px;
+    padding-right: 36px;
+}

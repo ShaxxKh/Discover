@@ -1,0 +1,56 @@
+.hero-row {
+    position: relative;
+}
+.main__hero {
+    margin-top: 100px;
+}
+.hero__header {
+    font-family: "Playfair Display", sans-serif, serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: #202336;
+    margin-bottom: 74px;
+    line-height: 1.3em;
+    position: relative;
+}
+.hero__header::after {
+    content: "";
+    background: url("../../img/plus.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 445px;
+    top: 15px;
+}
+.form__title {
+    font-family: "Inter", sans-serif, serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #202336;
+    margin-bottom: 48px;
+    line-height: 1.3em;
+    position: relative;
+}
+.form__title::before {
+    content: "";
+    background: url("../../img/circle.svg") no-repeat;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 529px;
+    top: 56px;
+}
+.form__select {
+    width: 220px    ;
+    height: 52px;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    padding-left: 31px;
+    padding-right: 20px;
+    margin-bottom: 35px;
+    font-family: "Inter", sans-serif, serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4A4C53;
+}
+
