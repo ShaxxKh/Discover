@@ -1,1 +1,38 @@
+ .main__new-way {
+     margin-top: 286px;
+ }
+ .drawing-2{
+     width: 659px;
+     height: 534px;
+     margin-left: -75px;
+     position: relative;
+ }
  
+.new-way__info {
+    margin-top: 90px;
+    position: relative;
+}
+.new-way__info::before {
+    content: "";
+    background: url("../../img/plus.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 495px;
+    bottom: 535px;
+}
+.new-way__info::after {
+    content: "";
+    background: url("../../img/circle.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 134px;
+    bottom: 160px;
+}
+.info__title {
+    margin-bottom: 20px;
+}
+.info__text {
+    margin-bottom: 33px;
+}
