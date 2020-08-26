@@ -1,19 +1,22 @@
 .button {
-    font-family: "Inter", sans-serif,serif;
+    font-family: $fontSecondary;
     font-size: 15px;
     font-weight: 500;
-    color: #ffffff;
-    background-color: #FB8F1D;
+    color: $colorWhite;
+    background-color: $colorPrimary;
     border-radius: 8px;
     border: none;
-    line-height: 3em;
+    line-height: 1em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
 }
 .button--outline {
     padding-left: 46px;
     padding-right: 46px;
-    background-color: #ffffff;
-    border: 1px solid #FB8F1D;
-    color: #FB8F1D;
+    background-color: $colorWhite;
+    border: 1px solid $colorPrimary;
+    color: $colorPrimary;
 }
 .button--accent{
     padding-left: 36px;

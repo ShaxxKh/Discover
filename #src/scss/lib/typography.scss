@@ -1,0 +1,19 @@
+@import "../lib/variables.scss";
+h1 {
+    font-family: $fontHeading;
+    font-size: 64px;
+    font-weight: bold;
+    color: $colorDark;
+}
+h2 {
+    font-family: $fontHeading;
+    font-weight: bold;
+    font-size: 36px;
+    color: $colorDark;
+    line-height: 1.4em;
+}
+p {
+    color: $colorLight;
+    padding: 0;
+    line-height: 1.7em;
+}

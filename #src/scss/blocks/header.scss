@@ -10,24 +10,3 @@
     left: 41.66667%;
     margin-top: 25px;
 }
-.nav__list {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-.nav__list {
-    .nav__link{
-        text-decoration: none;
-        color: #B8BECD;
-        font-size: 16px;
-        font-family: "Inter", sans-serif, serif;
-        line-height: 3em;
-    }
-    .nav__item--active{
-        .nav__link{
-            color: #000000;
-            font-weight: 500;
-        }
-    }
-}

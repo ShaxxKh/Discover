@@ -59,54 +59,55 @@
                         <h1 class="hero__header">Explore and<br>Travel</h1>
                         <h4 class="form__title">Holiday finder <br>___</h4>
                         <form action="" class="form__row row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 form__select-wrapper">
                                 <select name="locations" id="locations" class="form__select">
                                     <option value="Location" class="form__option">Location</option>
-                                    <option value="" class="form__option"></option>
-                                    <option value="" class="form__option"></option>
-                                    <option value="" class="form__option"></option>
+                                    <option value="China" class="form__option">China</option>
+                                    <option value="Switzerland" class="form__option">Switzerland</option>
+                                    <option value="Montenegro" class="form__option">Montenegro</option>
                                 </select>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 form__select-wrapper">
                                 <select name="activities" id="activities" class="form__select">
-                                    <option value="activity" class="form__option option">Activity</option>
-                                    <option value="" class="form__option"></option>
-                                    <option value="" class="form__option"></option>
-                                    <option value="" class="form__option"></option>
+                                    <option value="Activity" class="form__option option">Activity</option>
+                                    <option value="Surfing" class="form__option">Surfing</option>
+                                    <option value="Eating" class="form__option">Eating</option>
+                                    <option value="Swimming" class="form__option">Swimming</option>
                                 </select>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 form__select-wrapper">
                                 <select name="grade" id="grade" class="form__select">
-                                    <option value="grade" class="form__option">Grade</option>
-                                    <option value="" class="form__option"></option>
-                                    <option value="" class="form__option"></option>
-                                    <option value="" class="form__option"></option>
+                                    <option value="Grade" class="form__option">Grade</option>
+                                    <option value="First" class="form__option">First</option>
+                                    <option value="Second" class="form__option">Second</option>
+                                    <option value="Third" class="form__option">Third</option>
                                 </select>
                             </div>
-                            <div class="col-md-6">
-                                <select name="date" id="date" class="form__select">
+                            <div class="col-md-6 form__select-wrapper">
+                                <!-- <select name="date" id="date" class="form__select">
                                     <option value="date" class="form__option">Date</option>
-                                    <option value="" class="form__option"></option>
-                                    <option value="" class="form__option"></option>
-                                    <option value="" class="form__option"></option>
-                                </select>
+                                    <option value="2020.18.10" class="form__option">2020.18.10</option>
+                                    <option value="2020.07.20" class="form__option">2020.07.20</option>
+                                    <option value="2020.06.22" class="form__option">2020.06.22</option>
+                                </select>-->
+                                <input type="date" id="date" name="date" value="Date" class="form__select">
                             </div>
                         </form>
                         <button class="hero__button button col-md-4">Explore</button>
                     </div>
                     <div class="offset-md-1 col-md-5">
-                        <img src="img/thousand-01.png" alt="explore" class="hero__drawing-1 drawing-1">
+                        <img src="img/thousand-01.png" alt="explore" class="hero__illustration">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="main__new-way new-way col-md-12">
-            <div class="new-way__container container">
-                <div class="new-way__row row">
+        <div class="main__article article col-md-12">
+            <div class="article__container container">
+                <div class="article__row row">
                     <div class="col-md-6">
-                        <img src="img/Thousand-02.png" alt="drawing-2" class="new-way__drawing-2 drawing-2">
+                        <img src="img/Thousand-02.png" alt="illustration" class="article__illustration">
                     </div>
-                    <div class="new-way__info info offset-md-1 col-md-5">
+                    <div class="article__info info offset-md-1 col-md-5">
                         <h2 class="info__title title">A new way to explore the<br>world</h2>
                         <p class="info__text text col-md-12">
                             For decades travellers have reached for Lonely Planet
@@ -114,11 +115,23 @@
                             trip, but now, they can also let Lonely Planet Experiences
                             lead the way
                         </p>
-                        <button class="info__button button col-md-4">Learn more</button>
+                        <a class="info__link">
+                            <button class="info__link-wrapper button col-md-4">
+                                Learn more
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+        <section class="main__destinations destinations col-md-12">
+            <div class="container destinations__container">
+                <div class="destination__row row">
+                    <h2 class="destination__title title col-md-4">Featured destinations</h2>
+                    h4.destination__
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 

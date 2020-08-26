@@ -1,18 +1,19 @@
- .main__new-way {
+ @import "../lib/variables.scss";
+ .main__article {
      margin-top: 286px;
  }
- .drawing-2{
+ .article__illustration{
      width: 659px;
      height: 534px;
      margin-left: -75px;
      position: relative;
  }
  
-.new-way__info {
+.article__info {
     margin-top: 90px;
     position: relative;
 }
-.new-way__info::before {
+.article__info::before {
     content: "";
     background: url("../../img/plus.svg") no-repeat;
     width: 20px;
@@ -21,7 +22,7 @@
     right: 495px;
     bottom: 535px;
 }
-.new-way__info::after {
+.article__info::after {
     content: "";
     background: url("../../img/circle.svg") no-repeat;
     width: 20px;
@@ -35,4 +36,12 @@
 }
 .info__text {
     margin-bottom: 33px;
+    padding: 0;
+    font-family: $fontPrimary;
+    font-size: 17px;
+    font-weight: 400;
+}
+.info__link {
+    text-decoration: none;
+    color: $colorWhite;
 }
