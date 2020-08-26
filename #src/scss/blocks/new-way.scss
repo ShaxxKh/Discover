@@ -19,8 +19,8 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    right: 495px;
-    bottom: 535px;
+    left: -54px;
+    top: -90px;
 }
 .article__info::after {
     content: "";
@@ -44,4 +44,10 @@
 .info__link {
     text-decoration: none;
     color: $colorWhite;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.info__link:hover{
+    color: $colorWhite;
+    text-decoration: none;
 }
