@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -13,7 +13,9 @@
     <header class="header header--home">
         <div class="header__container container container--wider">
             <div class="header__row row">
-                <img src="img/logo.png" alt="logo" class="col-md-1 header__logo logo">
+                <div class="col-md-1">
+                    <img src="img/logo.png" alt="logo" class="header__logo logo">
+                </div>
                 <nav class="header__nav nav offset-md-4 col-md-7">
                     <ul class="nav__list">
                         <li class="nav__item nav__item--active">
@@ -49,48 +51,152 @@
                     </ul>
                 </nav>
             </div>
-            <div class="header__row row">
-                <div class="header__hero hero col-md-12">
-                    <h1 class="hero__header">Explore and Travel</h1>
-                    <div class="hero__form form">
-                        <h4 class="form__title">Holiday finder <br>____</h4>
-                        <label for="locations" class="form__label label">Location</label>
-                        <select name="locations" id="locations" class="form__select">
-                            <option value="China" class="form__option">China</option>
-                            <option value="" class="form__option"></option>
-                            <option value="" class="form__option"></option>
-                            <option value="" class="form__option"></option>
-                        </select>
-                        <label for="activities" class="form__label label">Activity</label>
-                        <select name="activities" id="activities" class="form__select">
-                            <option value="surfing" class="form__option option">Surfing</option>
-                            <option value="" class="form__option"></option>
-                            <option value="" class="form__option"></option>
-                            <option value="" class="form__option"></option>
-                        </select>
-                        <label for="grade" class="form__label label">Grade</label>
-                        <select name="grade" id="grade" class="form__select">
-                            <option value="Losem" class="form__option">Losem</option>
-                            <option value="" class="form__option"></option>
-                            <option value="" class="form__option"></option>
-                            <option value="" class="form__option"></option>
-                        </select>
-                        <label for="date" class="form__label label">Date</label>
-                        <select name="date" id="date" class="form__select">
-                            <option value="January" class="form__option">January</option>
-                            <option value="" class="form__option"></option>
-                            <option value="" class="form__option"></option>
-                            <option value="" class="form__option"></option>
-                        </select>
-                        <button class="hero__button button">Explore</button>
-                    </div>
-                    <img src="img/thousand-01.png" alt="explore" class="header__drawing-1 drawing-1">
-                </div>
-                <img src="img/plus.svg" alt="plus" class="header__plus plus">
-                <img src="img/circle.svg" alt="circle" class="header__circle circle">
-            </div>
         </div>
     </header>
+    <main>
+        <div class="main__hero hero col-md-12">
+            <div class="hero__container container container--wider">
+                <div class="hero__row row">
+                    <div class="hero__form form col-md-5">
+                        <h2 class="hero__heading">Explore and<br>Travel</h2>
+                        <h4 class="form__title">Holiday finder <br>___</h4>
+                        <form action="" class="form__row row">
+                            <div class="col-md-6 form__select-wrapper">
+                                <select name="locations" id="locations" class="form__select">
+                                    <option value="Location" class="form__option">Location</option>
+                                    <option value="China" class="form__option">China</option>
+                                    <option value="Switzerland" class="form__option">Switzerland</option>
+                                    <option value="Montenegro" class="form__option">Montenegro</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 form__select-wrapper">
+                                <select name="activities" id="activities" class="form__select">
+                                    <option value="Activity" class="form__option option">Activity</option>
+                                    <option value="Surfing" class="form__option">Surfing</option>
+                                    <option value="Eating" class="form__option">Eating</option>
+                                    <option value="Swimming" class="form__option">Swimming</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 form__select-wrapper">
+                                <select name="grade" id="grade" class="form__select">
+                                    <option value="Grade" class="form__option">Grade</option>
+                                    <option value="First" class="form__option">First</option>
+                                    <option value="Second" class="form__option">Second</option>
+                                    <option value="Third" class="form__option">Third</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 form__select-wrapper">
+                                <!-- <select name="date" id="date" class="form__select">
+                                    <option value="date" class="form__option">Date</option>
+                                    <option value="2020.18.10" class="form__option">2020.18.10</option>
+                                    <option value="2020.07.20" class="form__option">2020.07.20</option>
+                                    <option value="2020.06.22" class="form__option">2020.06.22</option>
+                                </select>-->
+                                <input type="date" id="date" name="date" value="Date" class="form__select">
+                            </div>
+                        </form>
+                        <button class="hero__button button col-md-4">Explore</button>
+                    </div>
+                    <div class="offset-md-1 col-md-5">
+                        <img src="img/thousand-01.png" alt="explore" class="hero__illustration">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__article article col-md-12">
+            <div class="article__container container">
+                <div class="article__row row">
+                    <div class="col-md-6">
+                        <img src="img/Thousand-02.png" alt="illustration" class="article__illustration--wider">
+                    </div>
+                    <div class="article__info info article__info--first offset-md-1 col-md-5">
+                        <h3 class="info__title title">A new way to explore the<br>world</h3>
+                        <p class="info__text text col-md-12">
+                            For decades travellers have reached for Lonely Planet
+                            books when looking to plan and execute their perfect 
+                            trip, but now, they can also let Lonely Planet Experiences
+                            lead the way
+                        </p>
+                        <a href="#" class="info__link button">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="main__destination destination col-md-12">
+            <div class="container destination__container">
+                <div class="destination__row row">
+                    <div class="destination__heading-wrapper col-md-12">
+                        <h3 class="destination__title title">Featured destinations</h3>
+                        <a href="#" class="destination__link link">View all &gt</a>
+                    </div>
+                    <ul class="destination__places places col-md-12">
+                        <li class="places__place place col-md-3">
+                            <div class="place__wrapper">
+                                <img src="img/Indonesia.png" alt="Indonesia" class="place__indonesia image">
+                                <div class="place__name">
+                                    Raja Ampat<br>
+                                    <span class="place__name--light">Indonesia</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="places__place place col-md-3">
+                            <div class="place__wrapper">
+                                <img src="img/China.png" alt="China" class="place__china image">
+                                <div class="place__name">
+                                    Fanjingshan<br>
+                                    <span class="place__name--light">China</span>
+                                </div>
+                            </div>
+                            
+                        </li>
+                        <li class="places__place place col-md-3">
+                            <div class="place__wrapper">
+                                <img src="img/Switzerland.png" alt="Switzerland" class="place__switzerland image">
+                                <div class="place__name">
+                                    Vevey<br>
+                                    <span class="place__name--light">Switzerland</span>
+                                </div>
+                            </div>
+                            
+                        </li>
+                        <li class="places__place place col-md-3">
+                            <div class="place__wrapper">
+                                <img src="img/Montenegro.png" alt="Montenegro" class="place__montenegro image">
+                                <div class="place__name">
+                                    Skadar<br>
+                                    <span class="place__name--light">Montenegro</span>
+                                </div>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="main__article article">
+            <div class="article__container container">
+                <div class="article__row row">
+                    <div class="offset-md-1 col-md-6 article__image--right">
+                        <img src="img/Thousand-03.png" alt="illustration" class="article__illustration">
+                    </div>
+                    <div class="article__info info article__info--left col-md-5">
+                        <h3 class="info__title title">Guides by Thousand<br>Sunny</h3>
+                        <p class="info__text text col-md-12">
+                            Packed with tips and advice from our on-the-ground 
+                            experts, our city guides app (iOS and Android) is the 
+                            ultimate resource before and during a trip.
+                        </p>
+                        <button class="info__button button col-md-4">
+                            Download
+                        </button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

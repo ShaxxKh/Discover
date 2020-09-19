@@ -1,0 +1,22 @@
+.nav__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-right: -50px;
+    padding: 0 auto;
+}
+.nav__list {
+    .nav__link{
+        text-decoration: none;
+        color: $colorLight;
+        font-size: 16px;
+        font-family: $fontSecondary;
+        line-height: 3em;
+    }
+    .nav__item--active{
+        .nav__link{
+            color: $colorDark;
+            font-weight: 500;
+        }
+    }
+}

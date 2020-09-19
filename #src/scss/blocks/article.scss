@@ -1,0 +1,92 @@
+ @import "../lib/variables.scss";
+ .article__illustration--wider{
+     width: 659px;
+     height: 534px;
+     margin-left: -75px;
+     position: relative;
+ }
+ .article__illustration{
+    width: 599px;
+    height: 534px;
+    position: relative;
+}
+ .info {
+     height: 100%;
+ }
+.article__info {
+    margin-top: 90px;
+    position: relative;
+}
+.article__info--first::before {
+    content: "";
+    background: url("../../img/plus.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -54px;
+    top: -90px;
+}
+.article__info--first::after {
+    content: "";
+    background: url("../../img/circle.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 134px;
+    bottom: 160px;
+}
+.article__image--right::before {
+    content: "";
+    background: url("../../img/plus.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -100px;
+    top: 50px;
+}
+.article__info--left::before {
+    content: "";
+    background: url("../../img/circle.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -47px;
+    left: 65px;
+}
+.article__info--left::after {
+    content: "";
+    background: url("../../img/plus.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.info__title {
+    margin-bottom: 20px;
+}
+.info__text {
+    margin-bottom: 33px;
+    padding: 0;
+    font-family: $fontPrimary;
+    font-size: 17px;
+    font-weight: 400;
+}
+.info__link {
+    text-decoration: none;
+    color: $colorWhite;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.info__link:hover{
+    color: $colorWhite;
+    text-decoration: none;
+}
+.article__image--right {
+    order: 2;
+    position: relative;
+}
+.article__info--left {
+    order: 1;
+    position: relative;
+}
